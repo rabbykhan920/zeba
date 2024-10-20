@@ -1,0 +1,40 @@
+<section class="bg-[#AA94C2]">
+        <div class="hero py-28">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <img
+                src="img/c2.jpg"
+                class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <h1 class="text-5xl font-semibold"><span class="text-[#7A1D2F]">Wellcome</span> to Zeba <br>
+                    fashion world <br>
+                    the lergest shop in city</h1>
+                <p class="py-6">
+                    
+                    Lorem ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Fuga eum quas <br>
+                    voluptatum alias est asperiores necessitatibus <br>
+                    nesciunt eaque velit reprehenderit.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+              </div>
+            </div>
+          </div>   
+    </section>
+
+
+
+
+
+
+
+    <div class="join">
+      <input
+        class="join-item btn btn-square"
+        type="radio"
+        name="options"
+        aria-label="1"
+        checked="checked" />
+      <input class="join-item btn btn-square" type="radio" name="options" aria-label="2" />
+      <input class="join-item btn btn-square" type="radio" name="options" aria-label="3" />
+     
+    </div>
