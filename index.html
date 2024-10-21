@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zeba | Home</title>
@@ -13,7 +14,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
+    
 
     <!-- links -->
     <!-- font awsome -->
@@ -23,6 +24,12 @@
         .font-popins{
             font-family: "Poppins", sans-serif;
         }
+    </style>
+    <style>
+         /* smooth scrolling for entire document  */
+         html{
+          scroll-behavior: smooth;
+         }
     </style>
     <script>
         tailwind.config = {
@@ -36,7 +43,7 @@
         }
       </script>
 </head>
-<body class="font-popins">
+<body class="font-popins scroll-smooth">
     <!-- header start -->
 <header class="bg-[#AA94C2]">
     <!-- navication start -->
@@ -61,11 +68,11 @@
                 <ul
                 tabindex="0"
                 class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li><a href="home">Home</a></li>
-                <li><a>Brand</a></li>
-                <li><a>Product</a></li>
-                <li><a>About US</a></li>
-                <li><a>Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Brand">Brand</a></li>
+                <li><a href="#Product">Product</a></li>
+                <li><a href="#about">About US</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
         <a href="index.html" class="btn md:text-5xl text-3xl font-medium bg-[#AA94C2] hover:bg-[#AA94C2] border-none md:ml-24">Ze Ba</a>
